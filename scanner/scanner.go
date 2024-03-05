@@ -925,7 +925,6 @@ func (s Scanner) execScan() error {
 			results[i] = r.ClearFields(server.IgnoredJSONKeys)
 		}
 	}
-
 	return writeScanResults(dir, results)
 }
 
